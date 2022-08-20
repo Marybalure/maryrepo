@@ -1,4 +1,2 @@
-mkdir companydir
-cd companydir
-touch file1
-echo "Hello world"
+date="$(date)"
+echo "Hi Life is not a bed of roses"
