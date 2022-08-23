@@ -6,11 +6,8 @@ pipeline {
             steps {
                 echo 'Hello World:Hi All'
             }
-            stage('login') {
-            steps {
-                echo 'logging in as marylilly'
-            }
+            
         }
     }
 }
-}
+
