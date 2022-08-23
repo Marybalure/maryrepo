@@ -8,7 +8,7 @@ pipeline {
             }
             stage('login') {
             steps {
-                echo 'logging in'
+                echo 'logging in as mary'
             }
         }
     }
