@@ -8,4 +8,4 @@ aws_instance=$"(aws ec2 run-instances \
     --security-group-ids sg-06bb607ae83ff084f \
     --user-data file://myuserdatascript1.sh)"
     
- echo $aws_instance
+ echo "$(aws_instance)"
